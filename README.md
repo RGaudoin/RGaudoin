@@ -19,6 +19,3 @@ Productive use of AI pair programming with traditional engineering discipline â€
 - [LinkedIn](https://www.linkedin.com/in/renegaudoin/)
 - [CV (PDF)](cv/rgaudoin.pdf) | [LaTeX source](cv/rgaudoin.tex)
 
----
-
-*This README was prepared with Claude Code assistance.*
