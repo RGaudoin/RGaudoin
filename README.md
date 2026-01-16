@@ -2,11 +2,15 @@
 
 Computational scientist turned ML/RL practitioner. PhD in Quantum Monte Carlo, 7+ years at QuantumBlack/McKinsey.
 
+Being a physicist is my core competency: translating between the real world and the abstract world of mathematics — and quickly learning whatever it takes to get there.
+
 ## Highlights
 
-- **America's Cup 2021**: Deep RL for boat design optimisation (Team NZ, DataIQ Grand Prix winner)
+- **[America's Cup 2021](https://www.americascup.com/)**: Deep RL for boat design optimisation (Team NZ, DataIQ Grand Prix winner)
 - **Healthcare ML**: Real world evidence, survival analysis, RCT simulation
 - **Research**: Quantum Monte Carlo, DFT, theoretical neurobiology
+
+**Tech:** Python (TensorFlow, Ray/RLLib, pandas, scikit-learn), Scala, C, Fortran, SQL, Spark
 
 ## Links
 
