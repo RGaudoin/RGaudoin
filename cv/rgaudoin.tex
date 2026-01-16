@@ -1,0 +1,135 @@
+\documentclass[11pt,a4paper]{article}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=2cm]{geometry}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+% Colors
+\definecolor{linkblue}{RGB}{0,102,204}
+
+% Hyperref setup
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkblue,
+    urlcolor=linkblue,
+}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{12pt plus 2pt minus 2pt}{6pt plus 2pt minus 2pt}
+
+% Remove page numbers
+\pagestyle{empty}
+
+% Custom commands
+\newcommand{\entry}[3]{%
+    \noindent\textbf{#1}\hfill #2\\
+    #3\par\vspace{6pt}%
+}
+
+\newcommand{\eduentry}[4]{%
+    \noindent\textbf{#1}\hfill #2\\
+    \textit{#3}\\
+    #4\par\vspace{6pt}%
+}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\LARGE\bfseries René Gaudoin, PhD}\\[4pt]
+    \href{mailto:nioduag_ener@yahoo.co.uk}{nioduag\_ener@yahoo.co.uk} \quad | \quad +44(0)7988 148 574 \quad | \quad London\\[2pt]
+    \href{https://www.linkedin.com/in/renegaudoin/}{LinkedIn} \quad | \quad \href{https://github.com/RGaudoin}{GitHub}
+\end{center}
+
+\section*{Personal Profile}
+
+\begin{itemize}[leftmargin=*, nosep, itemsep=3pt]
+    \item \textbf{Objective:} Building innovative solutions that push technical boundaries --- exploring healthcare, science, fine wine, and beyond.
+
+    \item \textbf{Strength:} Finding and implementing novel solutions based on diverse experience in academia and analytics consulting; driven by curiosity.
+
+    \item \textbf{Academic background:} Research in computational science (solid state physics, quantum chemistry, public health, theoretical neurobiology).
+
+    \item \textbf{Non-academic background:} DS/ML at QuantumBlack/McKinsey; online advertising; currently at StratosX.
+
+    \item \textbf{Wine expertise:} Special prize at follow-up exam for all UK \href{https://www.wsetglobal.com/}{WSET} 3 graduates with 100\% score in 2016.
+
+    \item \textbf{Highlights:} Deep Reinforcement Learning (\href{https://www.americascup.com/}{America's Cup 2021}, DataIQ Grand Prix), survival analysis and real world evidence on longitudinal medical data, deep neural network analysis of 1d medical data, randomised control trial simulation.
+
+\end{itemize}
+
+\section*{Professional Experience and Achievements}
+
+\begin{itemize}[leftmargin=*, nosep, itemsep=3pt]
+    \item \textbf{Machine learning and statistical methods:} Reinforcement learning (supply chain optimisation, logistics, sailing); health care (public health, HES, real world evidence, randomised control trial simulations, drug discovery, marketing), GenAI (virtual agents, code generation, prompt engineering); deep learning \& DL surrogates, supervised/unsupervised tech stack (including causal modelling/inference; Bayesian stats etc.).
+
+    \item \textbf{Developing new algorithms:} Calibration of statistical data, exact sampling for Quantum Monte Carlo, extending the Perceptron algorithm to time series of realistic neurons, modelling with aggregated target variable, and more.
+
+    \item \textbf{Computational science:} Ab initio methods (DFT, post-HF, QMC) and their theoretical foundations, theoretical neurobiology, basic computational fluid dynamics.
+
+    \item \textbf{Tech stack:} \textit{Languages:} Python, C, Fortran, Scala, some R, SQL. \textit{ML/Data:} TensorFlow, Ray/RLLib, Stable-Baselines, pandas, scikit-learn, scipy, statsmodels, seaborn, matplotlib. \textit{Infrastructure:} Git, Linux, Jupyter, AWS, Databricks, Spark, Ray, Jira. \textit{Other:} \LaTeX.
+
+    \item \textbf{AI-assisted development:} Productive use of AI pair programming (Claude Code) with traditional engineering discipline --- not vibe coding; also an equaliser for technical minds in written communication.
+\end{itemize}
+
+\section*{Employment and Work Experience}
+
+\entry{CAIO, StratosX, London}{2.2025--present}{%
+Chief AI Officer at airline disruption recovery startup. Defining, implementing, and validating ML applications across the platform.}
+
+\entry{Independent research, London/Munich}{10.2024--2.2025}{%
+Time out for family; independent exploration of ideas and emerging technologies.}
+
+\entry{Data Scientist, QuantumBlack (McKinsey), London}{5.2017--9.2024}{%
+Diverse projects (1--6 months) with experience across industries (health care: real world evidence, RCTs), IT productivity, sail racing, manufacturing supply chains, steel industry, DL surrogates, computational fluid dynamics \ldots). We aimed for complete solutions, from ideation to handing over documented production code, while keeping all the stakeholders on board, employing whatever ML yields the best trade-off. I have become particularly interested in reinforcement learning (e.g.\ working on America's cup boat design for the winning team, teaching a bot to sail for which we won the DataIQ Awards 2021 Grand Prix). The collaborative project-based nature honed my non-technical skills such as problem solving or helping communicate results to stakeholders.}
+
+\entry{Data Scientist, Infectious Media, London}{9.2014--5.2017}{%
+Modelling click/conversion probabilities for bidding on online ads (Python/Scala/Spark)}
+
+\entry{Fellow, S2DS data science summer school, London}{8.2014}{%
+Business, IT, and ML lectures followed by project work for Stratified Medical (Gensim, Neo4j).}
+
+\entry{Post-Doc (medical statistics), Imperial College (Dr.\ Foster Unit), London}{2.2012--3.2014}{%
+Investigating ML techniques beyond logistic regression (LR) for risk assessment (SMRs) on large medical data sets (HES).}
+
+\entry{Post-Doc, University of Vienna (Computational Material Physics)}{5.2010--1.2012}{%
+Applications/coding-up of DFT and Post-HF methods extending the functionality of the VASP package.}
+
+\entry{Academic Visitor, Fritz-Haber-Institut, Berlin}{9.2009--3.2010}{%
+Research into post-HF methods for van-der-Waals dominated systems.}
+
+\entry{Post-Doc, Donostia International Physics Institute}{11.2004--3.2009}{%
+Developing new algorithms for parallelised Quantum Monte Carlo (CASINO package), worked out the maths of and coded new algorithms, developed from scratch a new exact sampling technique.}
+
+\entry{Post-Doc, Rutgers University, NJ, USA}{12.2002--9.2004}{%
+Working on the fundamentals of density functional theory I discovered that contrary to assumptions, an important ground-state theorem does not generalise to other Quantum states.}
+
+\entry{Research Assistant, Imperial College, London}{1.2001--3.2002}{%
+Publishing research and finalising papers at the Condensed Matter Theory Group.}
+
+\section*{Education}
+
+\entry{PhD, Imperial College, London}{10.1996--12.2000}{%
+Condensed Matter Theory Group -- Quantum Monte Carlo calculations. We developed an inhomogeneous extension to trial wavefunctions implemented in the Casino package.}
+
+\entry{Diplom-Physiker, TU München}{12.1988--2.1995}{%
+General Physics (Maths, Physics, some Chemistry), grade 1.6. Final year thesis in theoretical Biophysics modelling spiking neurons and developing a Perceptron for these.}
+
+\entry{Secondary school, European School}{10.1980--6.1988}{%
+European Baccalaureate (top marks in economics, maths, physics, and chemistry)}
+
+\section*{Other Accomplishments}
+
+\noindent\textbf{Communication:} Publishing in high-impact journals, talks, posters, client visits, problem solving\\
+\textbf{Teaching:} Problem based learning (PBL); tutoring undergraduates, mentoring junior colleagues\\
+\textbf{Languages:} German/English -- bilingual; Spanish -- fluent; French -- intermediate\\
+\textbf{Wine:} WSET Level 3 with distinction (won Oddbins Scholarship at a special round for the best graduates).
+
+\end{document}
