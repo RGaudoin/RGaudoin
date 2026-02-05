@@ -23,7 +23,7 @@ If you're interested in collaboration, have questions, or constructive critique 
 - [rd-boat](https://github.com/RGaudoin/rd-boat) — Inspired by observations from the America's Cup project on POMDP behaviour and pre-start strategy. A simple yet somewhat realistic boat simulator to explore these.
 
 - [cooperation-game](https://github.com/RGaudoin/cooperation-game) — Started as daydreaming on what happens when agents with different abilities compete but can also cooperate. Expected higher ability to translate into more success — counterintuitively, even a simple model dispels that.
-- *Private: bluff (multiplayer stochastic dice game sim), MCTS experiments (simple extension to infinite arms, exploring stochastic versions), POMDP experiments*
+- *Private: bluff (multiplayer stochastic dice game sim), MCTS experiments (simple extension to infinite arms, exploring stochastic versions), POMDP experiments, RL bootstrapping and actor-critic architectures*
 
 ### Neural Networks
 
