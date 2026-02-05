@@ -1,6 +1,8 @@
 # Hi, I'm René Gaudoin
 
-Computational scientist turned ML/RL practitioner (PhD in Quantum Monte Carlo, 7+ years at QuantumBlack/McKinsey — [LinkedIn](https://www.linkedin.com/in/renegaudoin/), [CV](cv/rgaudoin.pdf)). My core competency as a physicist: bridging the concrete and the abstract. Curious about science, current affairs, and fine wine (WSET 3 with distinction). [More about me →](ABOUT.md)
+Computational scientist turned ML/RL practitioner (PhD in Quantum Monte Carlo, 7+ years at QuantumBlack/McKinsey — [LinkedIn](https://www.linkedin.com/in/renegaudoin/), [CV](cv/rgaudoin.pdf)).
+
+My core competency as a physicist: bridging the concrete and the abstract. Curious about science, current affairs, and fine wine (WSET 3 with distinction). [More about me →](ABOUT.md)
 
 I'm particularly interested in pushing boundaries and developing novel solutions — going beyond descriptive and predictive modelling into RL, game theory, and deeper statistical applications. As a scientist I'm drawn to biomedical applications, but I'd love to one day combine science, ML, and my passion for fine wine (some ideas but nothing concrete yet).
 
