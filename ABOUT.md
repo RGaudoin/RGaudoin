@@ -8,6 +8,12 @@
 - 7+ years at QuantumBlack/McKinsey
 - Multilingual: English, German, Spanish
 
+## Highlights
+
+- **[America's Cup 2021](https://www.americascup.com/)**: Deep RL for boat design optimisation (Team NZ, DataIQ Grand Prix winner)
+- **Healthcare ML**: Real world evidence, survival analysis, RCT simulation
+- **Research**: Quantum Monte Carlo, DFT, theoretical neurobiology
+
 ## Tech Stack
 
 Python (TensorFlow, Ray/RLLib, pandas, scikit-learn), Scala, C, Fortran, SQL, Spark
