@@ -31,4 +31,5 @@ If you're interested in collaboration, have questions, or constructive critique 
 
 ### Other
 
-- *Private: wu-laoshi (app to accompany absolute beginners Mandarin — vocab, tones, interactive trainer), robopainter (exploring intrinsically generated creativity within my limited compute resources)*
+- [wu-laoshi](https://github.com/RGaudoin/wu-laoshi) — Web-based Mandarin vocabulary tool with quiz, tone practice, clickable character decomposition, and AI-powered lesson import. Built as a companion for my beginners course based on the *Mandarin World* textbook series.
+- *Private: robopainter (exploring intrinsically generated creativity within my limited compute resources)*
