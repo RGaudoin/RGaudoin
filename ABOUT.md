@@ -11,7 +11,7 @@
 
 ## Highlights
 
-- **[America's Cup 2021](https://www.americascup.com/)**: Deep RL for boat design optimisation (Team NZ, DataIQ Grand Prix winner)
+- **[America's Cup 2021](https://www.linkedin.com/posts/renegaudoin_flying-across-the-sea-propelled-by-ai-activity-6775211288747360256-ADsM)**: Deep RL for boat design optimisation (Team NZ, DataIQ Grand Prix winner)
 - **Healthcare ML**: Real world evidence, survival analysis, RCT simulation
 - **Research**: Quantum Monte Carlo, DFT, theoretical neurobiology
 
