@@ -4,7 +4,7 @@ Based on a concept from a previous version of the Neural Network matrix, I explo
 
 ## Base RL Algorithm
 
-Vanilla Bellman Q-value updates, off-policy with a replay buffer. Actions sampled via softmax over discrete Q(s,a). A smallish network with some overfitting guardrails (not dropout).
+Vanilla Bellman Q-value updates, off-policy with a simple replay buffer. Actions sampled via softmax over discrete Q(s,a). A smallish network with some overfitting guardrails (not dropout). Nothing fancy.
 
 ## Results
 
