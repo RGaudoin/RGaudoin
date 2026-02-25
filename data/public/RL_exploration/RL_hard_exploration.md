@@ -12,10 +12,10 @@ A final experiment yielded promising results on Mountain Car. The screenshots sh
 
 | Metric | What it shows |
 |--------|--------------|
-| ![term_max](term_max.png) | **Terminal max** — reaching 1.0 means the car reaches the goal |
-| ![x_min](x_min.png) | **Position min** — the car swings to the left wall (-1.2) to build momentum |
-| ![eps_len](eps_len.png) | **Episode length** — drops from 200 (timeout) when solutions are found |
-| ![x_max](x_max.png) | **Position max** — reaching ~0.5, the goal position |
+| <img src="term_max.png" width="180"> | **Terminal max** — reaching 1.0 means the car reaches the goal |
+| <img src="x_min.png" width="180"> | **Position min** — the car swings to the left wall (-1.2) to build momentum |
+| <img src="eps_len.png" width="180"> | **Episode length** — drops from 200 (timeout) when solutions are found |
+| <img src="x_max.png" width="180"> | **Position max** — reaching ~0.5, the goal position |
 
 The instability is visible — the algorithm finds solutions but tends to regress. This is expected: stabilisation is a separate challenge from finding solutions in the first place, and arguably the easier one.
 
