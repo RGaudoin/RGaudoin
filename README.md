@@ -12,6 +12,8 @@ If you're interested in collaboration, have questions, or constructive critique 
 
 ## Topics & Projects
 
+[Recent updates →](UPDATES.md) — highlights: RL hard exploration shows promising first results on Mountain Car.
+
 ### Bayesian & Statistical Methods
 
 - [discretiser](https://github.com/RGaudoin/discretiser) — Inspired by work on embeddings at QB and private discussions with researchers on generative modelling for patient pathways. Unified these ideas (including some relevant maths) into one framework. Public repo covers synthetic data, the general framework, and optimisation. The learning model remains private and experimental.
