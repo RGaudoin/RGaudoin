@@ -1,0 +1,31 @@
+# Updates
+
+## 2026-02-25
+
+### RL Hard Exploration — promising first results (private)
+
+Inductive-bias-free exploration on Mountain Car shows the algorithm can find viable solutions. Still unstable — stabilisation is next. [Details and screenshots →](data/public/RL_exploration/RL_hard_exploration.md)
+
+### [discretiser](https://github.com/RGaudoin/discretiser) — first iteration sim ready
+
+*Combining time series and survival analysis for generative modelling and pathway embeddings.*
+
+Synthetic data generation, general framework, and optimisation are in place. Ready for experiments to learn structure from data.
+
+**TODO:** Run learning experiments, evaluate on different data shapes, iterate on the model.
+
+### [rd-boat](https://github.com/RGaudoin/rd-boat) — ready for RL experiments
+
+*Semi-realistic boat simulator for RL experimentation.*
+
+Simulator is functional. Ready for RL experiments: take-off, manoeuvre, multi-agent pre-start scenarios.
+
+**TODO:** Implement RL agent, start with single-agent tasks (take-off, upwind), then multi-agent pre-start.
+
+### [wu-laoshi](https://github.com/RGaudoin/wu-laoshi) — useful and usable
+
+*Practice companion for my Mandarin World beginners course.*
+
+Vocabulary management, quiz modes, tone practice, character decomposition, and AI-powered lesson import. (See also [screenshots](https://github.com/RGaudoin/wu-laoshi#screenshots).)
+
+**TODO:** Spaced repetition, expand content beyond current textbook lessons.
