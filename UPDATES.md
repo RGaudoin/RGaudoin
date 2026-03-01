@@ -29,3 +29,11 @@ Simulator is functional. Ready for RL experiments: take-off, manoeuvre, multi-ag
 Vocabulary management, quiz modes, tone practice, character decomposition, and AI-powered lesson import. (See also [screenshots](https://github.com/RGaudoin/wu-laoshi#screenshots).)
 
 **TODO:** Spaced repetition, expand content beyond current textbook lessons.
+
+### [biblioteca](https://github.com/RGaudoin/biblioteca) — new
+
+*Personal paper library for collecting, annotating, and organising research.*
+
+Import from PDFs, arXiv, URLs, or email links. AI-powered metadata extraction and summarisation, topics, tags, collections, and duplicate detection.
+
+**TODO:** Private annotations handling, paper finder (fetch PDFs from open-access sources), paper linking.
