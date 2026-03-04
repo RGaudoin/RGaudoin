@@ -33,9 +33,7 @@ Being a physicist is my core competency:
 
 ## On AI-Assisted Development
 
-I have slight dyslexia — not an issue for reading or speaking, but writing at volume takes more effort. AI tools like Claude Code have been a genuine equaliser, letting me focus on ideas rather than wrestling with prose.
-
-Productive use of AI pair programming with traditional engineering discipline — not "vibe coding" where review is bypassed.
+Productive use of AI pair programming (Claude Code) with traditional engineering discipline — not "vibe coding" where review is bypassed. Lets technical minds focus on ideas over prose.
 
 ## Links
 
