@@ -1,5 +1,19 @@
 # Updates
 
+## 2026-03-10
+
+### [bluff](https://github.com/RGaudoin/bluff) — now public
+
+Liar's Dice simulation with heuristic, adaptive, and DQN agents. PettingZoo environment and Streamlit app for interactive play.
+
+### wu-laoshi — import improvements
+
+Identical duplicates now hidden by default. Edit button on all import items with smart pre-fill (keep → existing values, replace → new values).
+
+### New private project: equilibria exploration
+
+Exploring methods for finding equilibria in n>2 player games with imperfect/incomplete information.
+
 ## 2026-03-01
 
 ### [biblioteca](https://github.com/RGaudoin/biblioteca) — new
