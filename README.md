@@ -36,4 +36,4 @@ If you're interested in collaboration, have questions, or constructive critique 
 
 - [wu-laoshi](https://github.com/RGaudoin/wu-laoshi) — Web-based Mandarin vocabulary tool with quiz, tone practice, clickable character decomposition, and AI-powered lesson import. Built as a companion for my beginners course based on the *Mandarin World* textbook series.
 - [biblioteca](https://github.com/RGaudoin/biblioteca) — Personal paper library for collecting, annotating, summarising, and organising papers and articles from everywhere. AI-powered metadata extraction and summarisation, topics, tags, collections, duplicate detection.
-- *Private: robopainter (exploring intrinsically generated creativity within my limited compute resources)*
+- *Private: merovingian (adaptive personal agent: email triage, calendar, tasks — LLM classification with learned preferences), robopainter (exploring intrinsically generated creativity within my limited compute resources)*
