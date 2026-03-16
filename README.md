@@ -26,7 +26,7 @@ If you're interested in collaboration, have questions, or constructive critique 
 
 - [cooperation-game](https://github.com/RGaudoin/cooperation-game) — Started as daydreaming on what happens when agents with different abilities compete but can also cooperate. Expected higher ability to translate into more success — counterintuitively, even a simple model dispels that.
 - [bluff](https://github.com/RGaudoin/bluff) — Simulation of Liar's Dice with AI agents (heuristic, adaptive, DQN), PettingZoo environment, and a Streamlit app for interactive play.
-- *Private: exploring methods for finding equilibria in n>2 player games with imperfect/incomplete information; MCTS experiments (infinite arms extension, aleatoric vs epistemic uncertainty decomposition for exploration), POMDP experiments, RL bootstrapping and actor-critic architectures*
+- *Private: [backprop-games](https://github.com/RGaudoin/backprop-games) — exploring methods for finding equilibria in n>2 player games with imperfect/incomplete information; MCTS experiments (infinite arms extension, aleatoric vs epistemic uncertainty decomposition for exploration), POMDP experiments, RL bootstrapping and actor-critic architectures*
 
 ### Neural Networks
 
