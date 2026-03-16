@@ -10,7 +10,7 @@ Liar's Dice simulation with heuristic, adaptive, and DQN agents. PettingZoo envi
 
 Identical duplicates now hidden by default. Edit button on all import items with smart pre-fill (keep → existing values, replace → new values).
 
-### New private project: equilibria exploration
+### New private project: [backprop-games](https://github.com/RGaudoin/backprop-games) — equilibria exploration
 
 Exploring methods for finding equilibria in n>2 player games with imperfect/incomplete information.
 
