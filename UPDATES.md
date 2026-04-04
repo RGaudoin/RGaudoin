@@ -1,5 +1,11 @@
 # Updates
 
+## 2026-04-04
+
+### RL — Gaussian Q-head POC (private)
+
+Exploring uncertainty-aware critics: the Q-network outputs a mean and log-sigma instead of a scalar, trained with a Gaussian log-likelihood loss. Uncertainty propagates through the Bellman chain. Required architectural caps to prevent sigma from bootstrapping to infinity — with those in place, converges on Pendulum-v1.
+
 ## 2026-03-10
 
 ### [bluff](https://github.com/RGaudoin/bluff) — now public
