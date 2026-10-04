@@ -4,7 +4,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage[margin=2cm]{geometry}
+\usepackage[hmargin=2cm,vmargin=1.7cm]{geometry}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage{hyperref}
@@ -23,6 +23,9 @@
 % Section formatting
 \titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{12pt plus 2pt minus 2pt}{6pt plus 2pt minus 2pt}
+
+% Allow a little extra inter-word stretch so long tool names wrap instead of overhanging
+\setlength{\emergencystretch}{2em}
 
 % Remove page numbers
 \pagestyle{empty}
@@ -44,8 +47,7 @@
 % Header
 \begin{center}
     {\LARGE\bfseries René Gaudoin, PhD}\\[4pt]
-    \href{mailto:nioduag_ener@yahoo.co.uk}{nioduag\_ener@yahoo.co.uk} \quad | \quad +44(0)7988 148 574 \quad | \quad London\\[2pt]
-    \href{https://www.linkedin.com/in/renegaudoin/}{LinkedIn} \quad | \quad \href{https://github.com/RGaudoin}{GitHub}
+    \href{mailto:nioduag_ener@yahoo.co.uk}{nioduag\_ener@yahoo.co.uk} \quad | \quad London \quad | \quad \href{https://www.linkedin.com/in/renegaudoin/}{LinkedIn} \quad | \quad \href{https://github.com/RGaudoin}{GitHub}
 \end{center}
 
 \section*{Personal Profile}
@@ -53,15 +55,17 @@
 \begin{itemize}[leftmargin=*, nosep, itemsep=3pt]
     \item \textbf{Objective:} Building innovative solutions that push technical boundaries --- exploring healthcare, science, fine wine, and beyond.
 
-    \item \textbf{Strength:} Finding and implementing novel solutions based on diverse experience in academia and analytics consulting; driven by curiosity.
+    \item \textbf{Strength:} Finding and implementing novel solutions based on diverse experience in academia, analytics consulting and startups; driven by curiosity.
 
-    \item \textbf{Academic background:} Research in computational science (solid state physics, quantum chemistry, public health, theoretical neurobiology).
+    \item \textbf{Academic background:} Research in computational science (solid state physics, quantum chemistry, public health, theoretical neurobiology); publications in high-impact journals (e.g.\ PRL); university teaching and tutoring.
 
-    \item \textbf{Non-academic background:} DS/ML at QuantumBlack/McKinsey; online advertising; currently at StratosX.
+    \item \textbf{Non-academic background:} DS/ML at QuantumBlack/McKinsey; online advertising; CAIO at StratosX (airline disruption recovery); currently Staff DS at Onsera (GLP-1 patient programmes); mentoring junior colleagues.
 
-    \item \textbf{Wine expertise:} Special prize at follow-up exam for all UK \href{https://www.wsetglobal.com/}{WSET} 3 graduates with 100\% score in 2016.
+    \item \textbf{Wine expertise:} 100\% in \href{https://www.wsetglobal.com/}{WSET 3}; won an Oddbins Scholarship prize in the follow-up round for top scorers (2016).
 
-    \item \textbf{Highlights:} Deep Reinforcement Learning (\href{https://www.linkedin.com/posts/renegaudoin_flying-across-the-sea-propelled-by-ai-activity-6775211288747360256-ADsM}{America's Cup 2021}, DataIQ Grand Prix), survival analysis and real world evidence on longitudinal medical data, deep neural network analysis of 1d medical data, randomised control trial simulation.
+    \item \textbf{Highlights:} Deep Reinforcement Learning (\href{https://www.linkedin.com/posts/renegaudoin_flying-across-the-sea-propelled-by-ai-activity-6775211288747360256-ADsM}{America's Cup 2021}, DataIQ Grand Prix), survival analysis, causal modelling and real world evidence on longitudinal medical data, deep neural network analysis of 1d medical data, randomised control trial simulation.
+
+    \item \textbf{Languages:} German/English bilingual; Spanish fluent; French intermediate.
 
 \end{itemize}
 
@@ -74,14 +78,20 @@
 
     \item \textbf{Computational science:} Ab initio methods (DFT, post-HF, QMC) and their theoretical foundations, theoretical neurobiology, basic computational fluid dynamics.
 
-    \item \textbf{Tech stack:} \textit{Languages:} Python, C, Fortran, Scala, some R, SQL. \textit{ML/Data:} TensorFlow, Ray/RLLib, Stable-Baselines, pandas, scikit-learn, scipy, statsmodels, seaborn, matplotlib. \textit{Infrastructure:} Git, Linux, Jupyter, AWS, Databricks, Spark, Ray, Jira. \textit{Other:} \LaTeX.
-
-    \item \textbf{AI-assisted development:} Productive use of AI pair programming (Claude Code) with traditional engineering discipline --- not vibe coding; lets technical minds focus on ideas over prose.
+    \item \textbf{Tech stack:} \textit{Languages:} Python, C, Fortran, Scala, some R, SQL. \textit{Deep learning:} TensorFlow/\allowbreak Keras, PyTorch. \textit{ML/Data:} Ray/RLLib, Stable-Baselines, pandas, scikit-learn, scipy, \mbox{statsmodels}, seaborn, matplotlib. \textit{Infrastructure:} Git, Linux, Jupyter, AWS, Databricks, Spark, \LaTeX.
 \end{itemize}
 
 \section*{Employment and Work Experience}
 
-\entry{CAIO, StratosX, London}{2.2025--present}{%
+\entry{Staff Data Scientist, Onsera, London}{4.2026--present}{%
+Health-tech startup helping patients make the best use of GLP-1 treatment through a structured programme.
+\begin{itemize}[nosep, leftmargin=2\parindent, itemsep=2pt]
+    \item Robust patient health scores targeting one or more outcomes, combinable with established indices (e.g.\ Elixhauser comorbidity) and stable under variable per-patient look-back
+    \item Forward-looking adherence models with flexible, calibrated predictive distributions
+    \item Causal, survival and autoregressive (time-series) modelling on longitudinal patient data for side effects, mortality and other emerging clinical and product questions
+\end{itemize}}
+
+\entry{CAIO, StratosX, London}{2.2025--1.2026}{%
 Chief AI Officer at airline disruption recovery startup. Defining, implementing, and validating ML applications across the platform.}
 
 \entry{Independent research, London/Munich}{10.2024--2.2025}{%
@@ -109,22 +119,27 @@ Modelling click/conversion probabilities for bidding on online ads (Python/Scala
 Business, IT, and ML lectures followed by project work for Stratified Medical (Gensim, Neo4j).}
 
 \entry{Post-Doc (medical statistics), Imperial College (Dr.\ Foster Unit), London}{2.2012--3.2014}{%
-Investigating ML techniques beyond logistic regression (LR) for risk assessment (SMRs) on large medical data sets (HES).}
+ML for risk adjustment of standardised mortality ratios on national hospital data (HES).}
 
 \entry{Post-Doc, University of Vienna (Computational Material Physics)}{5.2010--1.2012}{%
-Applications/coding-up of DFT and Post-HF methods extending the functionality of the VASP package.}
+DFT and post-Hartree-Fock methods extending the VASP package.}
 
 \entry{Academic Visitor, Fritz-Haber-Institut, Berlin}{9.2009--3.2010}{%
 Research into post-HF methods for van-der-Waals dominated systems.}
 
 \entry{Post-Doc, Donostia International Physics Institute}{11.2004--3.2009}{%
-Developing new algorithms for parallelised Quantum Monte Carlo (CASINO package), worked out the maths of and coded new algorithms, developed from scratch a new exact sampling technique.}
+New algorithms for parallelised Quantum Monte Carlo (CASINO package), including a new exact sampling technique.}
 
 \entry{Post-Doc, Rutgers University, NJ, USA}{12.2002--9.2004}{%
-Working on the fundamentals of density functional theory I discovered that contrary to assumptions, an important ground-state theorem does not generalise to other Quantum states.}
+Fundamentals of density functional theory: showed that the Hohenberg--Kohn theorem does not generalise to excited states (PRL 2004).}
 
 \entry{Research Assistant, Imperial College, London}{1.2001--3.2002}{%
 Publishing research and finalising papers at the Condensed Matter Theory Group.}
+
+\section*{Independent Research}
+
+\entry{Independent research, London}{2.2025--present}{%
+Ongoing alongside employment (selected code on \href{https://github.com/RGaudoin}{GitHub}): exploration in sparse-reward reinforcement learning, extensions of Monte Carlo tree search, game equilibria via differentiable game trees, time-series and survival modelling for patient embeddings and generative health-data models.}
 
 \section*{Education}
 
@@ -136,12 +151,5 @@ General Physics (Maths, Physics, some Chemistry), grade 1.6. Final year thesis i
 
 \entry{Secondary school, European School}{10.1980--6.1988}{%
 European Baccalaureate (top marks in economics, maths, physics, and chemistry)}
-
-\section*{Other Accomplishments}
-
-\noindent\textbf{Communication:} Publishing in high-impact journals, talks, posters, client visits, problem solving\\
-\textbf{Teaching:} Problem based learning (PBL); tutoring undergraduates, mentoring junior colleagues\\
-\textbf{Languages:} German/English -- bilingual; Spanish -- fluent; French -- intermediate\\
-\textbf{Wine:} WSET Level 3 with distinction (won Oddbins Scholarship at a special round for the best graduates).
 
 \end{document}

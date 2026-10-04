@@ -6,7 +6,7 @@
 - PhD in Quantum Monte Carlo (Imperial College London)
 - Postdoc at Dr Foster Unit, Imperial College (healthcare data, HES)
 - 7+ years at QuantumBlack/McKinsey
-- Currently CAIO at StratosX (airline disruption recovery); open to interesting opportunities
+- Staff Data Scientist at Onsera (GLP-1 patient programmes); previously CAIO at StratosX (airline disruption recovery); open to interesting collaborations
 - Multilingual: English, German, Spanish
 
 ## Highlights
