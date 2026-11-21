@@ -6,6 +6,8 @@ My core competency as a physicist: bridging the concrete and the abstract. Curio
 
 I'm particularly interested in pushing boundaries and developing novel solutions — going beyond descriptive and predictive modelling into RL, game theory, and deeper statistical applications. As a scientist I'm drawn to biomedical applications, but I'd love to one day combine science, ML, and my passion for fine wine (some ideas but nothing concrete yet).
 
+Much of this work connects under-used ideas: some sit in separate literatures that rarely cite each other (survival analysis, forecast verification, bandits and search, game theory); others went out of fashion because they did not fit the problems of their day, yet suit current ones well. I test whether, brought together, they do more than apart. Some repos have private extensions — happy to discuss.
+
 I've long neglected my public GitHub. Recently, using spare time and Claude Code, I've started iterating on ideas that have been on the back burner for years. Most are still WIP, but a few are ready to share. Some started as science doodling (e.g. [bayesian-coin](https://github.com/RGaudoin/bayesian-coin), [cooperation-game](https://github.com/RGaudoin/cooperation-game)) — a reminder that even the seemingly obvious can surprise you.
 
 If you're interested in collaboration, have questions, or constructive critique — please don't hesitate to get in touch.
