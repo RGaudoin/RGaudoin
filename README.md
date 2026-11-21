@@ -1,6 +1,6 @@
 # Hi, I'm René Gaudoin
 
-Computational scientist turned ML/RL practitioner (PhD in Quantum Monte Carlo, 7+ years at QuantumBlack/McKinsey — [LinkedIn](https://www.linkedin.com/in/renegaudoin/), [CV](cv/rgaudoin.pdf)).
+Computational scientist turned ML/RL practitioner (PhD in Quantum Monte Carlo, 7+ years at QuantumBlack/McKinsey, now Staff Data Scientist at Onsera — [LinkedIn](https://www.linkedin.com/in/renegaudoin/), [CV](cv/rgaudoin.pdf)).
 
 My core competency as a physicist: bridging the concrete and the abstract. Curious about science, current affairs, and fine wine (WSET 3 with distinction). [More about me →](ABOUT.md)
 
@@ -26,7 +26,7 @@ If you're interested in collaboration, have questions, or constructive critique 
 
 - [cooperation-game](https://github.com/RGaudoin/cooperation-game) — Started as daydreaming on what happens when agents with different abilities compete but can also cooperate. Expected higher ability to translate into more success — counterintuitively, even a simple model dispels that.
 - [bluff](https://github.com/RGaudoin/bluff) — Simulation of Liar's Dice with AI agents (heuristic, adaptive, DQN), PettingZoo environment, and a Streamlit app for interactive play.
-- *Private: [backprop-games](https://github.com/RGaudoin/backprop-games) — exploring methods for finding equilibria in n>2 player games with imperfect/incomplete information; MCTS experiments (infinite arms extension, aleatoric vs epistemic uncertainty decomposition for exploration), POMDP experiments, RL bootstrapping and actor-critic architectures*
+- *Private: backprop-games — exploring methods for finding equilibria in n>2 player games with imperfect/incomplete information. X-MCTS — MCTS extensions: infinite-armed bandits, frozen noise scenarios at chance nodes, aleatoric vs epistemic uncertainty for exploration. Further private work on POMDPs, RL exploration, bootstrapping and actor-critic architectures*
 
 ### Neural Networks
 

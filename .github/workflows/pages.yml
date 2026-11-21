@@ -1,0 +1,55 @@
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Assemble site source
+        run: |
+          src=_site_src
+          cp -r site "$src"
+          # Home page is the profile README: one source for GitHub profile and site.
+          { printf -- '---\nlayout: home\n---\n\n'; cat README.md; } > "$src/index.md"
+          cp ABOUT.md UPDATES.md "$src/"
+          cp -r cv "$src/"
+          mkdir -p "$src/_posts"
+          for f in posts/20*.md; do
+            [ -e "$f" ] || continue
+            name=$(basename "$f")
+            { cat "$f"; printf '\n\n---\n\n*[Version history](https://github.com/%s/commits/main/posts/%s)*\n' "$GITHUB_REPOSITORY" "$name"; } > "$src/_posts/$name"
+          done
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./_site_src
+          destination: ./_site
+
+      - uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

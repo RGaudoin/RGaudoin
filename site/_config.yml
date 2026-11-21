@@ -1,0 +1,26 @@
+# Jekyll config for the GitHub Pages site. Content (README → home, ABOUT, UPDATES, cv/,
+# posts/) is assembled from the repo root by .github/workflows/pages.yml, so the GitHub
+# profile and the site share one source.
+title: René Gaudoin
+description: Physicist turned data scientist — notes, projects and updates.
+author: René Gaudoin
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Project-site path while served at rgaudoin.github.io/RGaudoin/.
+# When the custom domain is added (CNAME), set baseurl to "" and url to the domain.
+url: "https://rgaudoin.github.io"
+baseurl: "/RGaudoin"
+
+header_pages:
+  - ABOUT.md
+  - UPDATES.md
+
+github_username: RGaudoin
+linkedin_username: renegaudoin
+
+# The source markdown starts with an H1; use it as the page title and drop it from the
+# body so the theme does not print it twice.
+titles_from_headings:
+  strip_title: true
